@@ -1,0 +1,311 @@
+/* nav part */
+
+.shop-nav{
+    display: flex;
+    width: 1140px;
+    height: 71px;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.nav-li{
+    display: flex;
+    list-style: none;
+   
+    
+}
+
+.nav-li a {
+    text-decoration: none;
+     margin-right: 30px;
+}
+/* banner part */
+
+.banner{
+    display: flex;
+    width: 1140px;
+    height: 461px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+#banner-description{
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+}
+/* plants section */
+
+.plant-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.plants{
+    width: 1140px;
+    height: 1186.88px;
+    margin: 0 auto;
+}
+
+.plant-1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.plant-card{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+.add-to-cart-btn{
+    width: 270px;
+    height: 50px;
+}
+/* lover part */
+
+.lover-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+}
+.lover-desc{
+    margin-left: 40px
+}
+
+.lover{
+    width: 1140px;
+    height: 597px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+ 
+ #trusted-badge{
+    
+    position: absolute;
+    top: -121px;
+    right: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.badge-container {
+    position: relative;
+    display: inline-block;
+} 
+
+/* latest part */
+
+.latest-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.latest{
+    text-align: center;
+}
+.join-sec {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.join-sec img {
+    width: 100%;
+    height: 100%;
+}
+.join-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+.Bunch{
+    font-size: 50px;
+}
+.input{
+    font-size: 30px;
+}
+.button{
+    font-size: 30px;
+    background-color: #E95A08;
+}
+.subcribe{
+    display: flex;
+
+}
+/* footer-part */
+
+.footer{
+    width: 1440px;
+    height: 348px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+ .footer a{
+    text-decoration: none;
+}
+.footer li{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    
+    
+}
+  @media screen and (max-width:576px) {
+
+    .shop-nav{
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .li-1, .li-2, .li-3 {
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .banner > img {
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .banner-container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .plant-title{
+        font-size: 24px;
+    }
+    
+    .plants{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+
+        
+    }
+    .plant-1{
+        max-width: 300px;
+        margin-left: 30px;
+        
+
+     }
+     #banner-description{
+        text-align: center;
+     }
+    .product-image{
+       max-width: 171px;
+       max-height: 340.5px;
+        
+    }
+    .product-image > img {
+        width: 100%;
+        height: 100%;
+    }
+    .add-to-cart-btn{
+        width: 100%;
+        height: 100%;
+    }
+     .plant-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 374px;
+       
+     } 
+     #respons{
+        display: none;
+     }
+
+     /* lover-part */
+     .lover-title{
+        font-size: 24px;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .lover{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+     }
+     .lover  img{
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+     }
+
+     .lover-desc{
+        margin-left: 5px;
+     }
+
+     #trusted-badge{
+        display: none;
+     }
+     .join-sec h1{
+        font-weight: bold;
+        font-size: 20px;
+     }
+     .join-sec img{
+        width: 393px;
+        height: 276px;
+
+     }
+     .Bunch{
+        font-size: 30px;
+        text-align: center;
+     }
+     .subcribe{
+        width: 100%;
+        height: 100%;
+        
+        align-items: center;
+        justify-items: center;
+
+     }
+     .input, .button{
+        font-size: 18px;
+     }
+    
+     .footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+        width: 100%;
+        height: 100%;
+     }
+}
