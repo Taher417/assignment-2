@@ -120,6 +120,31 @@
 
 .latest{
     text-align: center;
+    margin-top: 100px;
+}
+.deals-card{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    width: 1140px;
+    height: 423.13px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+
+}
+.deals-card img{
+    border-radius: 10px;
+
+
+}
+.deals-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    border-radius: 10px;
 }
 .join-sec {
     position: relative;
@@ -275,6 +300,8 @@
      #trusted-badge{
         display: none;
      }
+     
+
      .join-sec h1{
         font-weight: bold;
         font-size: 20px;
@@ -307,5 +334,8 @@
         
         width: 100%;
         height: 100%;
+     }
+     .h-1, .f-2{
+        margin-left: 0;
      }
 }
